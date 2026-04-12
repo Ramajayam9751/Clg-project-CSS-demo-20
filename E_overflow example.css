@@ -1,0 +1,9 @@
+.container > p {
+    width: 400px;
+    overflow: scroll;
+    padding: 20px;
+    height: 60px;
+    box-shadow: rgb(240, 229, 229);
+    border: 3px;
+
+}
