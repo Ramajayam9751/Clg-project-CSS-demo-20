@@ -1,0 +1,7 @@
+.story  > p{
+    border:3px solid blue;
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+}
