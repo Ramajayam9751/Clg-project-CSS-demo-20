@@ -1,0 +1,19 @@
+.title{
+    text-align: center;
+}
+
+.text-container {
+    border:5px solid grey;
+    display : flex;
+    flex-direction: row-reverse;
+}
+
+.teams-name{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    width:90px;
+    height: 90px;
+    padding: 30px;
+    margin: 20px;
+}
