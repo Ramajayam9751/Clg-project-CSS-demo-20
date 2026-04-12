@@ -1,0 +1,6 @@
+.page link > p {
+    line-height: 2px;
+    letter-spacing: 2px;
+    display: block;
+    text-decoration: none;
+}
