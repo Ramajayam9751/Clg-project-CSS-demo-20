@@ -1,6 +1,7 @@
 body {
-     background-image: url("../Clg-project-CSS-demo-20/thalaa.jpg");
+     background-image: url("/Clg-project-CSS-demo-20/thalaa.jpg");
      background-position: center;
-     background-repeat: no repeat;
+     background-repeat: no-repeat;
      background-attachment: fixed;
+     background-size: 700px 700px;
 }
