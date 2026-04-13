@@ -1,0 +1,10 @@
+.container{
+    color: white;
+    background-color: brown;
+    width: 300px;
+    padding: 20px;
+
+    position: relative;
+    top:140px;
+    left: 100px;
+}
