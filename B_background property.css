@@ -1,7 +1,5 @@
 body {
-    color: white;
-    background-image:url("../Clg-project-CSS-demo-20/clg\ logo");
+    background-image: url(/Clg-project-CSS-demo-20/thalaa.jpg);
+    background-repeat:no-repeat;
     background-position: center;
-    background-size: 1200px 700px;
-    background-attachment: fixed; 
 }
