@@ -1,6 +1,6 @@
 .container{
     background-color: blue;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
 
@@ -22,6 +22,12 @@
         color: black;
     }
 
+}
+
+@media(orientation: landscape){
+    .container{
+        background-color: blueviolet;
+    }
 }
     
     
