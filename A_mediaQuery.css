@@ -1,0 +1,24 @@
+.product{
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: rgb(44, 44, 240);
+    
+}
+@media (max-width:430px){
+    .container{
+        background-color: rgb(202, 38, 38);
+        flex-direction: column;
+        align-items:space-around;
+    }
+}
