@@ -1,0 +1,27 @@
+.container{
+    background-color: blue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+}
+
+.name{
+    background-color: brown;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 25px;
+    width: 100px;
+}
+
+@media (max-width:420px){
+    .container{
+        background-color: rgb(235, 25, 147);
+        color: black;
+    }
+
+}
+    
+    
