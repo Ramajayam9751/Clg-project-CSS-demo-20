@@ -1,0 +1,17 @@
+
+
+.name {
+    background-color: blueviolet;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    box-shadow: 2px 3px 1px gray;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: (4,3fr);
+}
