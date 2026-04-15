@@ -1,0 +1,17 @@
+h1::after{
+    content: IT;
+}
+
+h1::before{
+    content:;
+}
+
+.button{
+    position: relative;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border
+
+
+}
