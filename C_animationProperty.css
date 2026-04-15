@@ -1,0 +1,25 @@
+.container1{
+    background-color: yellowgreen;
+    color: black;
+    width: 80px;
+    height: 70px;
+    padding: 25px;
+    text-align: center;
+    animation-name: animate-container;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-container{
+
+50%{
+    transform: rotate(360deg);
+    background-color: aqua;
+}
+   100%{
+    transform: rotate(360deg);
+    background-color: brown;
+   } 
+
+}
