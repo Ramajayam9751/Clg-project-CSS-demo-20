@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: green;
+    color: white;
+}
+
+a:focus {
+    background-color: blue;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: blueviolet;
+    color: black;
+}
+
+a:focus{
+    background-color: blue;
+    color: black;
+}
+
+
