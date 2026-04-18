@@ -8,8 +8,11 @@
 
 }
 .container{
-    background-color: red;
+    background-color: brown;
     text-align: center;
+    padding: 50px;
+    width: 1400px;
+    height: 110px;
     
     
 }
@@ -52,4 +55,32 @@ body{
 .container1{
     display: flex;
     justify-content: center;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+}
+.container3{
+    padding: 5px;
+    box-shadow: 10px 10px 15px gray;
+    
+}
+
+
+.card{
+    width: 340;
+    color: aliceblue;
+    background-color: black;
+    padding: 5px;
+}
+
+
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    top: 100px;
 }
