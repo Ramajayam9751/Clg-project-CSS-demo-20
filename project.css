@@ -66,6 +66,20 @@ body{
     padding: 5px;
 }
 
+.container3{
+    text-align: center;
+    
+}
+
+img{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
