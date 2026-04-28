@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Footer</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #cfd3dc;
+    }
+
+    footer {
+      background: #1f1f2e;
+      color: #bbb;
+    }
+
+    footer h5 {
+      color: #fff;
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    footer h5::after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 2px;
+      background: #ff0057;
+      margin-top: 8px;
+    }
+
+    footer a {
+      color: #bbb;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 8px;
+      transition: 0.3s;
+    }
+
+    footer a:hover {
+      color: #fff;
+      padding-left: 5px;
+    }
+
+    .social-icons a {
+      width: 40px;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #2c2c3e;
+      color: #fff;
+      border-radius: 50%;
+      margin-right: 10px;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      background: #ff0057;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container my-5 text-center">
+    <h1>TCS <span class="text-danger">IT</span> Company</h1>
+  </div>
+
+  <footer class="pt-5 pb-4">
+    <div class="container">
+      <div class="row">
+
+        <!-- Company -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <h5>Company</h5>
+          <a href="#">About Us</a>
+          <a href="#">Our Services</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Affiliate Program</a>
+        </div>
+
+        <!-- Help -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <h5>Get Help</h5>
+          <a href="#">FAQ</a>
+          <a href="#">Shipping</a>
+          <a href="#">Returns</a>
+          <a href="#">Payment Options</a>
+        </div>
+
+        <!-- Shop -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <h5>Services</h5>
+          <a href="#">App development</a>
+          <a href="#">Wep development</a>
+          <a href="#">Web designing</a>
+          <a href="#">DivOps</a>
+        </div>
+
+        <!-- Social -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <h5>Follow Us</h5>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
