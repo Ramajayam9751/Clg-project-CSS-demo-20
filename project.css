@@ -67,18 +67,25 @@ body{
 }
 
 .container3{
-    text-align: center;
+    text-decoration: underline;
     
 }
 
 img{
     text-align: center;
 }
+.title h2{
+    text-align: center;
+}
 
 .container2{
     display: flex;
     justify-content: space-around;
+    
 
+}
+.img{
+    text-align: center;
 }
 
 
